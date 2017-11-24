@@ -2,7 +2,8 @@
 Feature: Register Validation
 
   Scenario: Registration confirmation with Valid data
-
+    
+// add a comment to check GIThub
     Given I go to "https://www.d3dsecurity.co.uk"
     Then I should see a Register button
     When I click on the Register button
